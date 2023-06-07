@@ -4,7 +4,7 @@
   "description": "Example generating Scala Presentations",
   "main": "index.js",
   "scripts": {
-    "build": "scala-cli slides.sc; marp slides-scala.md -o build/index.html"
+    "build": "marp slides.md -o build/index.html"
   },
   "dependencies": {
     "@marp-team/marp-cli": "^2.3.0"

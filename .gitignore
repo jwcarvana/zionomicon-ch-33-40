@@ -1,3 +1,35 @@
+# Scala
+target/
+publish-maven/
+config/credentials
+.idea/
+.bsp
+
+
+version.txt
+.sbt-*
+publish.sbt
+version.sbt
+
+keyfile.json
+keyfile.*.json
+*-secret.json
+*secret.*
+
+.bloop
+project/.bloop
+
+.metals
+project/metals.sbt
+metals.sbt
+
+.vscode/*
+database.env
+schema.graphql
+*.sc
+*.env*
+
+# Slides
 .bsp
 .metals
 .scala-build
